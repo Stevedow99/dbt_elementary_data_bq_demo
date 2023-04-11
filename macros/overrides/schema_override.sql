@@ -10,6 +10,11 @@
         dbt_sdowling_feature_demo_elementary_metadata
 
 
+    {%- elif custom_schema_name == 'artifacts_logging' -%}
+
+        dbt_sdowling_feature_demo_artifacts_logging
+
+
     {%- else -%}
 
         dbt_sdowling_feature_demo
