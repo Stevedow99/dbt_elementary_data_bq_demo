@@ -5,6 +5,11 @@
 
         dbt_sdowling_feature_demo
 
+    {%- elif custom_schema_name == 'elementary' -%}
+
+        dbt_sdowling_feature_demo_elementary_metadata
+
+
     {%- else -%}
 
         dbt_sdowling_feature_demo
