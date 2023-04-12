@@ -57,6 +57,10 @@ models:
 ## for details, see docs: https://docs.elementary-data.com/ 
   elementary:
     +schema: 'elementary'
+    +enabled: false
+
 
   dbt_artifacts:
     +schema: 'artifacts_logging'
+    +enabled: false
+
